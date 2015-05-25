@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html{background:#333; margin:0; padding:0; font-family: 'sf_new_republicbold', arial;}
+
+@font-face {
+	font-family: 'sf_new_republicbold';
+	src: url('/fonts/sf_new_republic_bold-webfont.eot');
+	src: local('sf_new_republic_bold-webfont.ttf'), url('/fonts/sf_new_republic_bold-webfont.woff') format('woff'), url('/fonts/sf_new_republic_bold-webfont.ttf') format('truetype'), url('/fonts/sf_new_republic_bold-webfont.svg#webfonterLZbVFw') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#wrapper{
+	width:90%;
+	margin:120px auto 0 auto;
+}
+#wrapper header img.logo{ width:350px; margin:25px 0 0 0;}
+a{text-decoration:none;}
+#wrapper header{ height:120px; background:#333; width:90%; position:fixed; top:0; z-index:1000;}
+#wrapper header ul{position:absolute; right:0; top:15px; }
+#wrapper header ul li{float:left; color:#fff;}
+#wrapper header ul li.available{margin:33px 20px 0 0; opacity:0.3;}
+#wrapper header ul li.redbubble a img{width:140px; margin:20px 30px 0 0; }
+#wrapper header ul li.society6 a img{width:110px; margin:28px 0 0 0; }
+#wrapper header ul li a img{ opacity:0.3}
+#wrapper header ul li a:hover img{ opacity:1; -webkit-transition: opacity .2s linear;}
+#wrapper #intro{background:#0ca597; padding:20px 30px; font-size:1.5em; color:#fff;}
+.square-wrapper{width:50%; height:600px; float:left;}
+
+.square-wrapper .large-square {width:100%; height:600px; position:relative; background:#0ca597; float:left; }
+.square-wrapper .large-square a{width:100%; height:600px; display:block;}
+.square-wrapper .large-square a:hover{opacity:0.7; -webkit-transition: opacity .2s linear;}
+.square-wrapper .large-square div{position:absolute; width:90%; bottom:25px; left:0; padding-left:40px; }
+.square-wrapper .large-square div h1{font-family: 'sf_new_republicbold', arial; letter-spacing:-2px; color:#000; font-size:4em; font-weight:bold; background:#fff; display:inline-block; padding:8px 10px 8px 10px;  -webkit-border-radius: 3px 3px 3px 0;
+-moz-border-radius:  3px 3px 3px 0;
+border-radius:  3px 3px 3px 0;}
+.square-wrapper .large-square div span {text-transform:uppercase; color:#fff; display:block; text-align:center; width:80px; padding:10px 15px 10px 15px; background:#0ca597; -webkit-border-radius:  0 3px 3px 3px;
+-moz-border-radius:   0 3px 3px 3px;
+border-radius:   0 3px 3px 3px;}
+
+
+
+.square-wrapper .medium-square{width:100%; height:300px; position:relative; background:#0ca597; float:left}
+.square-wrapper .medium-square a{width:100%; height:300px; display:block;}
+.square-wrapper .medium-square a:hover{opacity:0.7; -webkit-transition: opacity .2s linear;}
+.square-wrapper .medium-square div{position:absolute; width:90%; bottom:25px; left:0; padding-left:25px; }
+.square-wrapper .medium-square div h2{font-family: 'sf_new_republicbold', arial; letter-spacing:-2px; color:#000; font-size:2em; font-weight:bold;  background:#fff; display:inline-block; padding:8px 10px 8px 10px;  -webkit-border-radius: 3px 3px 3px 0;
+-moz-border-radius:  3px 3px 3px 0;
+border-radius:  3px 3px 3px 0;}
+.square-wrapper .medium-square div span {text-transform:uppercase; color:#fff; display:block; text-align:center; width:80px; padding:10px 15px 10px 15px; background:#0ca597; -webkit-border-radius:  0 3px 3px 3px;
+-moz-border-radius:   0 3px 3px 3px;
+border-radius:   0 3px 3px 3px;}
+
+.square-wrapper .small-square{width:50%; height:300px; position:relative; background:#0ca597; float:left}
+.square-wrapper .small-square a{width:100%; height:300px; display:block;}
+.square-wrapper .small-square a:hover{opacity:0.7; -webkit-transition: opacity .2s linear;}
+.square-wrapper .small-square div{position:absolute; width:90%; bottom:25px; left:0; padding-left:20px; -webkit-border-radius:  0 8px 8px 0;
+-moz-border-radius:  0 8px 8px 0;
+border-radius:  0 8px 8px 0;}
+.square-wrapper .small-square div h3{font-family: 'sf_new_republicbold', arial; letter-spacing:-2px; color:#000; font-size:1.6em; font-weight:bold;  background:#fff; display:inline-block; padding:8px 10px 8px 10px;  -webkit-border-radius: 3px 3px 3px 0;
+-moz-border-radius:  3px 3px 3px 0;
+border-radius:  3px 3px 3px 0;}
+.square-wrapper .small-square div span {text-transform:uppercase; clear:both; color:#fff; display:block; text-align:center; width:80px; padding:10px 15px 10px 15px; background:#0ca597; -webkit-border-radius:  0 3px 3px 3px;
+-moz-border-radius:   0 3px 3px 3px;
+border-radius:   0 3px 3px 3px;}
+
+.square-wrapper .large-square.chuck a{background:url(images/chuck.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+
+.square-wrapper .large-square.seagal a{background:url(images/seagal.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+
+.square-wrapper .small-square.chuck a{background:url(images/chuck.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+
+.square-wrapper .small-square.snake a{background:url(images/snake.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+
+.square-wrapper .small-square.arnie a{background:url(images/ill-be-back.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+.square-wrapper .medium-square.bear a{background:url(images/do-not-feed-the-bears.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);-webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);-webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+.square-wrapper .medium-square.messi a{background:url(images/lionel-messi.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+
+.square-wrapper .medium-square.motorino a{background:url(images/motorino.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+
+.square-wrapper .small-square.bruce2 a{background:url(images/yippee-ki-yay-modern.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+.square-wrapper .small-square.ibra a{background:url(images/ibra.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+.square-wrapper .small-square.wazza a{background:url(images/wazza.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+.square-wrapper .small-square.startrek a{background:url(images/star-trek.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+.square-wrapper .medium-square.lemmings a{background:url(images/lemmings.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+.square-wrapper .small-square.swinglow a{background:url(images/swing-lo.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear; -webkit-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 118px -4px rgba(0,0,0,0.75);}
+
+footer{
+	clear:both;
+	background:#0ca597;
+	border-top:20px solid #333;
+		border-bottom:20px solid #333;
+	padding:25px;
+	overflow:hidden;
+}
+footer img{
+	width:200px; margin-right:25px; float:left;
+}
+footer div{ margin:0 0 0 25px; color:#fff;}
+footer div h4{font-family: 'sf_new_republicbold', arial; font-size:2em; margin-bottom:20px;}
+footer div p{line-height:1.3em;}
+
+@media (max-width: 960px) {
+
+	.square-wrapper .small-square{width:100%; height:300px; position:relative; background:#0ca597; float:left}
+	.square-wrapper{width:100%; height:600px; float:none;}
+	.square-wrapper .medium-square div h2{font-size:2.8em;}
+	.square-wrapper .large-square div h1{font-size:4em;}
+	.square-wrapper .large-square div{padding-left:25px; }
+	#wrapper #intro{font-size:1.2em;}
+	#wrapper header img.logo{ width:250px; margin:33px 0 0 0;}
+	}
+@media (max-width: 760px) {
+	#wrapper{
+margin:120px auto 0 auto;
+}
+footer img{margin:0 auto 25px auto; float:none; display:block;}
+footer div p{font-size:.9em;}
+footer div{ text-align:center;}
+	#wrapper header ul{display:none;}
+	.square-wrapper .medium-square div h2{font-size:1.6em;}
+	.square-wrapper .large-square div h1{font-size:2em;}
+		#wrapper header img.logo{ width:250px; display:block; margin:35px auto 0 auto;}
+
+}
