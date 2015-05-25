@@ -26,7 +26,7 @@ a{text-decoration:none;}
 #wrapper header ul li a img{ opacity:0.3}
 #wrapper header ul li a:hover img{ opacity:1; -webkit-transition: opacity .2s linear;}
 #wrapper #intro{background:#0ca597; padding:20px 30px; font-size:1.5em; color:#fff;}
-.square-wrapper{width:50%; float:left; test}
+.square-wrapper{width:50%; float:left;}
 
 .square-wrapper .large-square {width:100%; height:600px; position:relative; background:#0ca597; float:left; }
 .square-wrapper .large-square a{width:100%; height:600px; display:block;}
