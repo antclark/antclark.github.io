@@ -73,6 +73,14 @@ border-radius:   0 3px 3px 3px;}
 
 .square-wrapper .small-square.snake a{background:url(images/snake.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;  }
 
+.square-wrapper .small-square.everton a{background:url(images/everton.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;  }
+
+.square-wrapper .small-square.liverpool a{background:url(images/liverpool.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;  }
+
+.square-wrapper .small-square.chester a{background:url(images/chester.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;  }
+
+.square-wrapper .small-square.guernsey a{background:url(images/guernsey.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;  }
+
 .square-wrapper .small-square.arnie a{background:url(images/ill-be-back.jpg) center no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;  }
 .square-wrapper .medium-square.bear a{background:url(images/do-not-feed-the-bears.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;    }
 .square-wrapper .medium-square.messi a{background:url(images/lionel-messi.jpg) no-repeat; background-size: cover; -webkit-transition: opacity .3s linear;  }
