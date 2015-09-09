@@ -120,15 +120,15 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 20px 40px;
     border-color: #0ca597;
-    border-radius: 3px;
+    border-radius: 6px;
     font-family: 'sf_new_republicbold',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     color: #fff;
     background-color: #0ca597;
-	 -webkit-transition: padding .9s;
-        -moz-transition: padding .9s;
-        transition: padding .9s;
+	 -webkit-transition: padding .5s;
+        -moz-transition: padding .5s;
+        transition: padding .5s;
 }
 
 .btn-xl:hover,
@@ -139,7 +139,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #077c71;
     color: #fff;
     background-color: #077c71;
-	 padding: 20px 50px;
+	 padding: 20px 80px;
 	
 }
 
@@ -334,17 +334,20 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+	  margin-top: 0;
+    margin-bottom: 65px;
     text-transform: none;
     font-family: 'sf_new_republicbold',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
-    font-style: italic;
     font-weight: 400;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 70px 0;
+    }
+	section#portfolio {
+        padding: 70px 0 0 0;
     }
 }
 
@@ -513,7 +516,7 @@ section h3.section-subheading {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #0ca597;
 }
 
 .timeline>li {
@@ -561,7 +564,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #0ca597;
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -599,7 +602,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 0;
+    margin-top: 20px;
     color: inherit;
 	color:#0ca597;
 }
@@ -733,9 +736,9 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #000;
     background-image: url(../img/map-image.png);
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 
@@ -824,7 +827,7 @@ ul.social-buttons li a {
     height: 40px;
     border-radius: 100%;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 45px;
     outline: 0;
     color: #fff;
     background-color: #0ca597;
