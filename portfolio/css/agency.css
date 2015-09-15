@@ -213,7 +213,6 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
-	font-size:20px;
 }
 
 .navbar-default .nav li a:hover,
@@ -261,7 +260,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 3.5em;
+        font-size: 1.7em;
     }
 }
 
@@ -284,10 +283,10 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 20px;
+    font-style: normal;
     line-height: 22px;
 }
 
@@ -306,11 +305,12 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 20px;
+
     }
 
     header .intro-text .intro-heading {
@@ -602,7 +602,6 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 20px;
     color: inherit;
 	color:#0ca597;
 }
