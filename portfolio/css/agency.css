@@ -232,17 +232,7 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #077c71;
 }
-@media(max-width:767px) {
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -961,4 +951,15 @@ body {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
+}
+@media(max-width:767px) {
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
 }
