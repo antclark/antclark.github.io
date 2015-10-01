@@ -271,6 +271,7 @@ header {
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
+background-color:#666;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -857,7 +858,7 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-	background:#f4f4f4;
+	background:#fff;
 }
 
 .portfolio-modal .modal-content h2 {
