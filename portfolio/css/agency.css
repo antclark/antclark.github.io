@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #333333;
+    background-color: #000000;
 }
 
 .navbar-default .navbar-brand {
@@ -258,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #333333;
+        background-color: #000000;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -270,10 +270,10 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+	background-image:url(../img/main-image.png);
     background-position: center center;
     background-repeat: none;
-background-color:#666;
+background-color:#0ca597;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -613,7 +613,7 @@ section h3.section-subheading {
     text-transform: none;
 	font-size:35px;
 	letter-spacing:-2px;
-	color:#333;
+	color:#000;
 }
 
 .timeline .timeline-body>p,
