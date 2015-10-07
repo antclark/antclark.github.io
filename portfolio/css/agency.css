@@ -137,9 +137,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #73c4bd;
+    border-color: #0ca597;
     color: #fff;
-    background-color: #73c4bd;
+    background-color: #0ca597;
 	 padding: 20px 80px;
 	
 }
@@ -270,7 +270,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-	background-image:url(../img/main-image.png);
+	background-image:url(../img/main-image.jpg);
     background-position: center center;
     background-repeat: none;
 background-color:#0ca597;
@@ -303,13 +303,13 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 400px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 15px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'sf_new_republicbold',"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 20px;
         font-style: normal;
         line-height: 20px;
@@ -317,7 +317,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         font-family: 'sf_new_republicbold',"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 110px;
         font-weight: 700;
